@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ineza Gakwaya Ketia | Personal Resume</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <a href="#home" class="nav-logo">Ineza G. Ketia</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home/Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Ineza Gakwaya Ketia</h1>
+                <p class="subtitle">Full-Stack Web Developer | Crafting Digital Experiences</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="/images/ketia.jpg" alt="A photo of Ineza Gakwaya Ketia" class="profile-pic">
+                    <p>
+                        I am a passionate and detail-oriented Full-Stack Developer with a strong foundation in creating responsive, user-friendly, and efficient web applications. With experience in both front-end and back-end technologies, I enjoy bringing ideas to life and solving complex problems. I am a lifelong learner, always eager to adopt new technologies and improve my skill set. My goal is to contribute to meaningful projects and collaborate with talented teams to build innovative digital solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class="fab fa-html5"></i> HTML5</div>
+                    <div class="skill-card"><i class="fab fa-css3-alt"></i> CSS3</div>
+                    <div class="skill-card"><i class="fab fa-js-square"></i> JavaScript (ES6+)</div>
+                    <div class="skill-card"><i class="fas fa-database"></i> SQL (PostgreSQL)</div>
+                    <div class="skill-card"><i class="fas fa-database"></i> MongoDB</div>
+                    <div class="skill-card"><i class="fab fa-git-alt"></i> Git & GitHub</div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <div class="container">
+                <h2>Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Junior Web Developer</h3>
+                            <h4>Broadcasters of ICT Rwanda| 2021 </h4>
+                            
+                        
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Web Development Intern</h3>
+                            <h4>N@tcom service Rwanda | 2022 - 2023</h4>
+                            <ul>
+                                <li>Assisted Junior in debugging and testing web applications.</li>
+                                <li>Created and updated website content, ensuring accuracy and functionality.</li>
+                                <li>Gained hands-on experience with version control systems like Git.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <img src="Eartthwise.jpg" alt="Project One Screenshot">
+                        <div class="project-info">
+                            <h3>Earthwise Storage</h3>
+                            <p>EarthWise Storages business model integrates cold chain solution, community hubs, refrigerated transport, and processing facilities to maintain product quality and add value.</p>
+                            <button class="btn project-btn" data-title="EarthWise Storage" data-desc="This was a comprehensive project built using the MERN stack (MongoDB, Express, React, Node.js). Key features include user authentication, product management for admins, a dynamic shopping cart, and integration with a mock payment gateway. The front-end is fully responsive and provides a seamless shopping experience." data-tech="React, Node.js, Express, MongoDB">Learn More</button>
+                        </div>
+                    </article>
+                    
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            
+                            <h4>Currentry Studying at African Leadership University.</h4>
+                            <p>Focused on software development, algorithms, and data structures.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>Have a question or want to work together? Feel free to reach out!</p>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <div id="form-status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/kgakwaya" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ineza-gakwaya-ketia-b6578b2bb/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/InezaKetia" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>© 2024 Ineza Gakwaya Ketia. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-desc"></p>
+            <p><strong>Technologies used:</strong> <span id="modal-tech"></span></p>
+        </div>
+    </div>
+
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
